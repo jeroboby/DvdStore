@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dvdstore-web" />
         <module name="dvdStore" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="dvdStore" options="-parameters" />
+      <module name="dvdStore" options="" />
+      <module name="dvdstore-web" options="-parameters" />
     </option>
   </component>
 </project>
